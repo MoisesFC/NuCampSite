@@ -29,6 +29,11 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
+                <a  href="#reserveForm">
+                    <div class="col-md-4 col-xl-2">
+                        <button class="btn btn-info">Reserve Campsite</button>
+                    </div>
+                </a>
             </div>
         </div>
     </header>
@@ -52,30 +57,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-        </div>
-    </nav> -->
 
     <div class="container">
         <div class="row row-content align-items-center">
@@ -125,6 +106,43 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-light">Reserve a Campsite</h3>
+                    <div class="card-body">
+                        <form id="reserveForm" action="">
+                            <div class="row form-group">
+                                <label class="col-sm-6" for="numCampers">Number of Campers</label>
+                                <div class="col-sm-6">
+                                    <select class="form-control col form-select" name="numCampers" id="numCampers">
+                                        <option selected>Select ...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-sm-6" for="date">Date</label>
+                                <div class="col">
+                                    <input class="form-control" type="date" placeholder="01/01/2023">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button class="btn btn-primary" type="submit" value="submit">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
