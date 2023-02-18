@@ -1,0 +1,79 @@
+body{
+    font-family: "Comfortaa" ;
+    background-color:#d5dfd5
+}
+h1 {
+    font-size: 80px;
+}
+
+h1, h2, h3{
+    font-family: "Comfortaa", "Bold";
+}
+
+h2{
+    color: rgb(8, 8, 51);
+}
+
+header h2{
+    color:#3a3939
+}
+
+.site-footer{
+    background-image: linear-gradient(#d5dfd5, rgb(255, 255, 255));
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #d5dfd5;
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #d5dfd5;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px */
+}
+
+/* img {
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+.add-shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
+}
+
+a{
+    color: black;
+}
+
+.connect{
+    color: black;
+}
+
+
+
